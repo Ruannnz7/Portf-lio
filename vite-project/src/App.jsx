@@ -3,6 +3,7 @@ import Hero from "./Hero"
 import About from "./About"
 import Projects from "./Projects"
 import Contact from "./Contact"
+import Technologies from "./Technologies"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Technologies />
     </>
   )
 }

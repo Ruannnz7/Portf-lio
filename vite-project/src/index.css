@@ -132,6 +132,62 @@ nav .nav-links a:hover {
   to { box-shadow: 0 0 40px rgba(0,229,255,1); }
 }
 
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  border: 2px solid #00f5ff;
+  color: #00f5ff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #00f5ff;
+  color: black;
+}
+
+.technologies {
+  padding: 80px 8%;
+}
+
+.technologies h2 {
+  font-size: 32px;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+}
+
+.tech-card {
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.tech-card:hover {
+  background: #111;
+}
+
+.line {
+  width: 50px;
+  height: 3px;
+  background: #00f5ff;
+  margin: 10px 0 40px;
+}
+
 /* ================= SECTIONS ================= */
 .section {
   padding: 100px 20px;
